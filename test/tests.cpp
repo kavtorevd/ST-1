@@ -124,7 +124,7 @@ TEST(st1, sumPrime6) {
   EXPECT_EQ(expected, res);
 }
 
-TEST(st1, sumPrime7) {
+TEST(st1, sumPrime_7) {
   uint64_t res = sumPrime(1000);
   uint64_t expected = 76127;
   EXPECT_EQ(expected, res);
